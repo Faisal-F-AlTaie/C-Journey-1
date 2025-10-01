@@ -1,0 +1,43 @@
+
+
+### 1. **Turn off IntelliSense suggestions (autocomplete)**
+
+1. Open **Settings** (`Ctrl` + `,` or `Cmd` + `,` on Mac).
+2. Search for: `editor.suggestOnTriggerCharacters`
+3. Uncheck it (this stops suggestions from appearing when you type `.` or other trigger characters).
+4. Also, you can disable:
+
+   * `editor.quickSuggestions` → set to **false**
+   * `editor.parameterHints.enabled` → set to **false**
+
+---
+
+### 2. **Turn off Snippets**
+
+Snippets can insert whole chunks of code automatically.
+
+1. In Settings, search for: `editor.snippetSuggestions`
+2. Set it to **"none"**.
+
+---
+
+### 3. **Turn off Inline Suggestions (Ghost Text / Copilot, etc.)**
+
+If you see gray text auto-completing ahead of you:
+
+* In Settings, search: `editor.inlineSuggest.enabled` → set to **false**.
+* If you’re using GitHub Copilot or another AI extension:
+
+  * Go to **Extensions** → find **Copilot (or the AI extension)** → **Disable** or adjust its settings.
+
+---
+
+### 4. **Disable Tab Auto-Completion**
+
+If hitting **Tab** auto-fills code:
+
+1. In Settings, search: `editor.tabCompletion`
+2. Set it to **off**.
+
+---
+
